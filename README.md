@@ -26,10 +26,10 @@ Installation
 Create a virtual environment (recommended) and install dependencies:
 
 python3 -m venv venv
-# Linux / macOS
+Linux / macOS
 source venv/bin/activate
-# Windows (PowerShell)
-# venv\Scripts\Activate.ps1
+Windows (PowerShell)
+venv\Scripts\Activate.ps1
 
 pip install scapy
 
@@ -69,4 +69,4 @@ sudo python3 network_scanner_explained.py 192.168.0.0/29 --no-resolve -t 20
 Run interactively (script prompts for CIDR):
 
 sudo python3 network_scanner_explained.py
-# then enter: 192.168.0.0/24
+then enter: 192.168.0.0/24
